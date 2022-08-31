@@ -1,0 +1,140 @@
+.body{background-color: #3D087B;}
+
+.maincontainer{display: flex;
+    justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+         width: 90%;
+         height: 90%;
+
+}
+.container{
+    
+
+    width: 100%;
+         height: 90%
+}
+.select{opacity: 2;
+    border: none;
+    height: 30px;
+    width: 200px;
+}
+.box1{background-color: white;
+      height: 250px;
+      width:90%;
+      border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+}
+
+.box2{
+    height: 40px;
+    width: 93%;
+    background-color: #8E53F0;
+    text-shadow: 1px 1px 2px white;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    border-radius:4px ;
+}
+
+.container2{display: flex;
+    
+
+}
+
+.box3{ height: 35px;
+    width: 60%; 
+    background-color: #8E53F0;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.box3:hover{
+    background-color: violet;
+}
+.con{
+    height: 100px;
+    width: 30%;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: #8E53F0;
+    color: violet;
+    text-align: center;
+}
+
+#zindex1{height: 105px;
+    width:260px;
+    border-radius: 4px;
+    margin-left: 120px;
+    background-color:#5F0089;
+    position: absolute;
+    z-index: -2;
+
+}
+
+#zindex2{ height: 100px;
+    width:300px;
+    border-radius: 4px;
+    margin-left: 100px;
+    background-color:#C2C2C2;
+    position: absolute;
+    z-index: -1;
+
+}
+.box4{ display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 90px;
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.time{
+    background-image: url(./time\ svg.png);
+    width: 70px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px ;
+    border-radius: 3px;
+    text-align: center;
+}
+.am{background-image: url(./Am\ svg.png);
+    width: 70px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px ;
+    border-radius: 3px;
+    text-align: center;
+}
+
+    
+    .box5{background-color: #FFFFFF;
+        width: 90%;
+        height: 50px;
+        font-weight: bolder;
+        text-align: center;
+        color:#8E53F0 ;
+        border-radius: 4px;
+        padding-top: 25px;
+        text-shadow: 1px 1px 2px #8E53F0;
+}
+.box6{
+    background-image: url(./breakfast\ image.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 90%;
+    
+}
